@@ -1,0 +1,49 @@
+// @import "_theme1.scss"; // una de los dos imports siempre tiene que estar comentado.
+@import "_theme2.scss";
+
+.container-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+
+  & div {
+    display: flex;
+    flex-direction: column;
+    height: 8vh;
+    width: 9vw;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 10px;
+    border-radius: $border-radius;
+  }
+
+  & .fonts {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+}
+
+.ex2 {
+  &-base {
+    background-color: $background-Base;
+  }
+  &-important {
+    background-color: $background-Important;
+  }
+  &-warning {
+    background-color: $background-Warning;
+  }
+}
+
+.principal-font {
+  font-family: $principal-Font;
+}
+
+.secondary-font {
+  font-family: $secondary-Font;
+}
+
+.box-shadow {
+  box-shadow: $box-shadow;
+}

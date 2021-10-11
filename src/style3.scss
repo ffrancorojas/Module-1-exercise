@@ -1,0 +1,17 @@
+.nav {
+  display: flex;
+  border: 1px solid black;
+  width: 50vw;
+  justify-content: space-between;
+  background-color: rgb(20, 111, 136);
+  color: aliceblue;
+  & div {
+    padding: 12px;
+  }
+  & div:hover {
+    background-color: rgb(33, 52, 87);
+  }
+  @media screen and (max-width: 750px) {
+    flex-direction: column;
+  }
+}

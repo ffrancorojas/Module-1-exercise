@@ -1,0 +1,29 @@
+$color-base: red;
+$color-text: grey;
+
+.container-1 {
+  display: flex;
+  gap: 4px;
+}
+
+.container-1 div {
+  padding: 2em 1em;
+  border-radius: 6px;
+}
+
+.base-color {
+  background-color: $color-base;
+  color: $color-text;
+}
+@for $box from 1 through 4 {
+  .darken-#{$box} {
+    background-color: darken($color-base, 10% * $box);
+    color: lighten($color-text, 10% * $box);
+  }
+}
+@for $box from 1 through 4 {
+  .lighten-#{$box} {
+    background-color: lighten($color-base, 10% * $box);
+    color: darken($color-text, 10% * $box);
+  }
+}

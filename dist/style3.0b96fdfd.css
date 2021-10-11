@@ -1,0 +1,21 @@
+.nav {
+  display: flex;
+  border: 1px solid black;
+  width: 50vw;
+  justify-content: space-between;
+  background-color: #146f88;
+  color: aliceblue;
+}
+.nav div {
+  padding: 12px;
+}
+.nav div:hover {
+  background-color: #213457;
+}
+@media screen and (max-width: 750px) {
+  .nav {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=/style3.0b96fdfd.css.map */

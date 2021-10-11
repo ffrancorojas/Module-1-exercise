@@ -1,0 +1,1 @@
+{"version":3,"sources":["style4.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA","file":"style4.54d4136f.css","sourceRoot":"..\\src","sourcesContent":[".container-3 {\r\n  display: grid;\r\n  grid-template-columns: 25vw;\r\n  border: 1px solid black;\r\n}\r\n"]}

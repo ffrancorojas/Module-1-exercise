@@ -1,0 +1,44 @@
+.container-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.container-2 div {
+  display: flex;
+  flex-direction: column;
+  height: 8vh;
+  width: 9vw;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 10px;
+  border-radius: 6px;
+}
+.container-2 .fonts {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.ex2-base {
+  background-color: #0e0bb8;
+}
+.ex2-important {
+  background-color: #060241;
+}
+.ex2-warning {
+  background-color: #10c2b3;
+}
+
+.principal-font {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.secondary-font {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.box-shadow {
+  box-shadow: -3px 3px 5px 2px;
+}
+
+/*# sourceMappingURL=/style2.9e95f212.css.map */
